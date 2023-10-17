@@ -1,0 +1,62 @@
+* {
+    transition: all 0.25s;
+  }
+  
+  body {
+    background-image: url('imag/Historia.jpg');
+    background-size: 1700px, 100px; 
+    background-position: center;
+    background-repeat: no-repeat;
+    height: 900px;
+  }
+
+  #tablero-de-juego {
+    width: 98vw;
+    height: 97vh;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+
+
+  }
+   /*#tablero-de-juego {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    font-size: 120%;
+  }*/
+  
+  #encabezado {
+    width: 80vw;
+    min-height: 200px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    flex-direction: column;
+    background: transparent;
+    background: white;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    font-size: 30px;
+    font-weight: normal;
+  }
+  
+  .opcion {
+    text-align: center;
+    width: 70vw;
+    background: white;
+    color: black;
+    border-radius: 10px;
+    margin: 10px;
+    padding: 10px;
+    cursor: pointer;
+    font-size: 25px;
+    font-weight: normal;
+  }
+  
+  .opcion:hover{
+       background: lightgray;
+  }
